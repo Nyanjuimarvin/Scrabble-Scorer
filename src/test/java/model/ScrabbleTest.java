@@ -45,4 +45,18 @@ class ScrabbleTest {
         int expectedNumber = 4;
         assertEquals(expectedNumber,myScrabble.wordNumberValue("f"));
     }
+
+    @Test
+    @DisplayName("Should Return 5")
+    public void runWordNumberValue_forLettersThatAre5_Int(){
+        int expectedNumber = 5;
+        assertEquals(expectedNumber,myScrabble.wordNumberValue("k"));
+    }
+
+    @Test
+    @DisplayName("Should Return 8")
+    public void runWordNumberValue_forLettersThatAre8_Int(){
+        int expectedNumber = 8;
+        assertEquals(expectedNumber,myScrabble.wordNumberValue("j"));
+    }
 }
