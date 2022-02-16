@@ -39,6 +39,10 @@ public class Scrabble {
             }else if( (iterator == 'j' || iterator == 'J') || (iterator == 'x' || iterator == 'X'))
             {
                 numberTotal.add(8);
+
+            }else{
+
+                numberTotal.add(10);
             }
 
         }
