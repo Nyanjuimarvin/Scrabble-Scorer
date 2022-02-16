@@ -14,6 +14,8 @@ public class Scrabble {
                 numberTotal.add(1);
             }else if(iterator == 'd' || iterator == 'g'){
                 numberTotal.add(2);
+            }else if(iterator == 'b' || iterator =='c'||iterator == 'm'|| iterator == 'p'){
+                numberTotal.add(3);
             }
 
         }
