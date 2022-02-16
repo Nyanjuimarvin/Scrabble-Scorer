@@ -35,11 +35,12 @@ Thumbs.db
 
 # Java and Gradle #
 ############
-
-build/
 .gradle/
+settings.gradle
+gradle
+build/
+
 
 # IntelliJ #
 ############
-.idea
 .idea/
