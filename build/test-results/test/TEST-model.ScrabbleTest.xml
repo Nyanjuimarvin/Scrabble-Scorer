@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="model.ScrabbleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-16T11:23:13" hostname="moringa-HP-EliteBook-840-G6" time="0.032">
+<testsuite name="model.ScrabbleTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-02-16T11:27:59" hostname="moringa-HP-EliteBook-840-G6" time="0.039">
   <properties/>
-  <testcase name="Must Return 1" classname="model.ScrabbleTest" time="0.028"/>
+  <testcase name="Must Return 1" classname="model.ScrabbleTest" time="0.031"/>
   <testcase name="Should Return 2" classname="model.ScrabbleTest" time="0.001"/>
-  <testcase name="Should Return 3" classname="model.ScrabbleTest" time="0.001"/>
+  <testcase name="Should Return 3" classname="model.ScrabbleTest" time="0.002"/>
+  <testcase name="Should Return 4" classname="model.ScrabbleTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
