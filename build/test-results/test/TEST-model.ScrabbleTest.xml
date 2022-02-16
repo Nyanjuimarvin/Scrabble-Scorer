@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.ScrabbleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-16T11:08:54" hostname="moringa-HP-EliteBook-840-G6" time="0.028">
+  <properties/>
+  <testcase name="Must Return 1" classname="model.ScrabbleTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
