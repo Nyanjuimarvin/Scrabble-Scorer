@@ -31,7 +31,7 @@ public class App {
                 System.out.println("Enter Either of the Below Options:\n");
                 System.out.printf("Hello Again..Your Score Is  %d %n", yourScrabble.wordNumberValue(newWord));
                 System.out.println(" 0_0 Continue<--           -->Exit 0~0");
-                System.out.println("*********************************************");
+                System.out.println("*********************************************e");
                 String newStatus = bufferedReader.readLine();
                 if(newStatus.equals("Continue")){
                     newStatus = gameStatus;
