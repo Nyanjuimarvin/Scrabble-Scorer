@@ -40,17 +40,22 @@ public class Scrabble {
             {
                 numberTotal.add(8);
 
-            }else{
+            }else if( (iterator == 'q' || iterator == 'Q') || (iterator == 'z' || iterator == 'Z'))
+            {
 
                 numberTotal.add(10);
+
+            }else{
+
+                numberTotal.add(0);
             }
 
         }
 
-        int sum = 0;
-        for(int iterator:numberTotal)
-            sum += iterator;
+        int total = 0;
+        for(int number:numberTotal) total += number;
 
-        return sum;
+
+        return total;
     }
 }
