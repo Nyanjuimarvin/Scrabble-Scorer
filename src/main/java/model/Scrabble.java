@@ -12,6 +12,8 @@ public class Scrabble {
             if( iterator == 'a' || iterator == 'e' || iterator== 'i'|| iterator=='o'||
                 iterator=='u'|| iterator=='l'|| iterator=='n'|| iterator=='r'|| iterator=='s'|| iterator=='t'){
                 numberTotal.add(1);
+            }else if(iterator == 'd' || iterator == 'g'){
+                numberTotal.add(2);
             }
 
         }
